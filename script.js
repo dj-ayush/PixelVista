@@ -1,5 +1,5 @@
 /**
- * PixelVista Pro - Premium Image Explorer
+ * PixelVista - Premium Image Explorer
  * Features:
  * - Glassmorphism UI
  * - Image hover overlays with photographer info
