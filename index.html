@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelVista Pro - Premium Image Explorer</title>
+    <meta name="description" content="Discover stunning AI-generated images with PixelVista Pro. Premium experience powered by Unsplash API.">
+    <meta name="keywords" content="AI images, premium image search, Unsplash, photography, wallpapers">
+    <meta name="author" content="Kishore S R">
+
+    <!-- Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Random premium camera logo -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3176/3176272.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <div class="container">
+        <div class="heading">
+            <!-- Premium logo with glass effect -->
+            <div class="logo-glass">
+                <img src="https://cdn-icons-png.flaticon.com/512/3176/3176272.png" alt="PixelVista Pro logo" class="logo">
+            </div>
+            <h1>PixelVista Pro</h1>
+            <p>― Premium Visual Discovery ―</p>
+        </div>
+
+        <!-- Glassmorphism search form -->
+        <form id="search-form" role="search" class="glass-card">
+            <input type="text" 
+                   id="search-box" 
+                   placeholder="Search landscapes, portraits, abstract..."
+                   aria-label="Search for premium images">
+            <button type="submit" aria-label="Search" class="glass-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <span>Search</span>
+            </button>
+        </form>
+
+        <!-- Premium loading spinner -->
+        <div class="loader-container" id="loader">
+            <div class="premium-spinner"></div>
+            <p>Loading premium content...</p>
+        </div>
+
+        <!-- Results grid with hover effects -->
+        <section id="search-result" aria-live="polite"></section>
+        
+        <!-- Glassmorphism "Explore More" button -->
+        <button id="show-more-btn" class="glass-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+            </svg>
+            <span>Explore More</span>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
