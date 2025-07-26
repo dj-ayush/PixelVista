@@ -10,7 +10,7 @@
 
 **PixelVista** is a premium image exploration web application that helps you search and browse high‑quality photos with a smooth, modern interface.
 
-[![Website Link](https://img.shields.io/badge/Website%20Link-FF1493?style=for-the-badge)](https://pixel-vista-eight.vercel.app/)
+[![Website Link](https://img.shields.io/badge/Website%20Link-FF1493?style=for-the-badge)](https://pixelvista-0701-ayush.web.app/)
 
 ---
 
