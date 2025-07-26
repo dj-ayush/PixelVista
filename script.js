@@ -9,7 +9,7 @@
  */
 
 // Unsplash API configuration
-const accessKey = 'VjEiykKdp1Mvfg1zKHugdwLK-OFxlYLcgQ80wKWWSeI'; // Replace with your actual key
+const accessKey = 'YOUR_UNSPLASH_ACCESS_KEY'; // Replace with your actual key
 let currentPage = 1;
 let currentQuery = '';
 let isLoading = false;
